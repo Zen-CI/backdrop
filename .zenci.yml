@@ -1,0 +1,12 @@
+deploy:
+  branch:
+    server: zenci.backdrop.expert
+    username: backdrop
+    dir: '{home}/github/{repo_owner}/{repo_name}'
+    env_vars
+      docroot: '{home}/domains/zenci.backdrop.expert'
+      database_name: zenci_backdrop
+      database_user: zenci_backdrop
+      database_pass: HNRhjb4t
+    scripts:
+      init: '{deploy_dir}/install.sh'
