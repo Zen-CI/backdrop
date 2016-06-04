@@ -22,6 +22,6 @@ cp -r $ZENCI_DEPLOY_DIR/sites ./
 
 
 # Install Backdrop.
-php $DOCROOT/core/scripts/install.sh --account-mail=$ACCOUNT_MAIL --account-name=$ACCOUNT_USER --account-pass="$ACCOUNT_PASSWORD" --site-mail=$SITE_MAIL --site-name="$SITE_NAME" --db-url=mysql://$DATABASE_USER:$DATABASE_PASS@localhost/$DATABASE_NAME --root=$DOCROOT
+php $DOCROOT/core/scripts/install.sh --account-mail=$ACCOUNT_MAIL --account-name=$ACCOUNT_USER --account-pass="$ACCOUNT_PASS" --site-mail=$SITE_MAIL --site-name="$SITE_NAME" --db-url=mysql://$DATABASE_USER:$DATABASE_PASS@localhost/$DATABASE_NAME --root=$DOCROOT
 
-echo "user: $ACCOUNT_USER pass: $ACCOUNT_PASSWORD"
+echo "user: $ACCOUNT_USER pass: $ACCOUNT_PASS"
