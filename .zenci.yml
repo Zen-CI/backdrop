@@ -8,5 +8,10 @@ deploy:
       database_name: backdrop_zenci
       database_user: backdrop_zenci
       database_pass: HNRhjb4t
+      account_user: admin
+      account_mail: admin@zen.ci
+      account_pass: changeme
+      site_mail: noreply@zen.ci
+      site_name: "My Test site deploy"
     scripts:
       init: '{deploy_dir}/install.sh'
