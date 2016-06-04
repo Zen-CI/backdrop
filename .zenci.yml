@@ -1,17 +1,17 @@
 deploy:
   branch:
-    server: zenci.backdrop.expert
+    server: docs.zen.ci
     username: backdrop
-    dir: '{home}/github/{repo_owner}/{repo_name}'
+    dir: '{home}/github/{repo_owner}/{repo_name}/{branch}'
     env_vars:
-      docroot: '{home}/domains/zenci.backdrop.expert'
-      database_name: backdrop_zenci
-      database_user: backdrop_zenci
-      database_pass: HNRhjb4t
+      docroot: '{home}/domains/docs.zen.ci'
+      database_name: backdrop_docs
+      database_user: backdrop_docs
+      database_pass: hjbhfwef67w
       account_user: admin
       account_mail: admin@zen.ci
       account_pass: changeme
       site_mail: noreply@zen.ci
-      site_name: "My Test site deploy"
+      site_name: "Documentation site"
     scripts:
       init: '{deploy_dir}/install.sh'
