@@ -2,7 +2,7 @@ deploy:
   branch:
     server: zenci.backdrop.expert
     username: backdrop
-    dir: '{home}/github/{repo_owner}/{repo_name}'
+    dir: '{home}/github/{repo_owner}/{repo_name}/{branch}'
     env_vars:
       docroot: '{home}/domains/zenci.backdrop.expert'
       database_name: backdrop_zenci
