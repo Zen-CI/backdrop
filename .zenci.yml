@@ -3,7 +3,7 @@ deploy:
     server: zenci.backdrop.expert
     username: backdrop
     dir: '{home}/github/{repo_owner}/{repo_name}'
-    env_vars
+    env_vars:
       docroot: '{home}/domains/zenci.backdrop.expert'
       database_name: zenci_backdrop
       database_user: zenci_backdrop
