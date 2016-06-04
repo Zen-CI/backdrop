@@ -5,7 +5,7 @@ cd $DOCROOT
 
 # Link Backdrop files
 ln -s $ZENCI_DEPLOY_DIR/* ./
-ln -s $ZENC_DEPLOY_DIR/.htaccess ./
+ln -s $ZENCI_DEPLOY_DIR/.htaccess ./
 
 # Unlink settings.php and copy instead.
 rm -f settings.php
